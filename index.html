@@ -1,0 +1,205 @@
+<html>
+<title>Practice Animations</title>
+<style type="text/css">
+
+body {
+margin: 0;
+font-family: 'Montserrat', sans-serif;
+    }
+#header {
+    height: 150px;
+    background-color: #1C949E;
+	box-shadow: 0px 0px 20px 3px #000;
+    line-height: 150px;
+    }
+    #header h2 {
+        font-weight: lighter;
+        margin-left: 30px;
+    }
+    #header h3 {
+        font-weight: lighter;
+        float: right;
+        margin-top: -173px;
+        margin-right: 50px;
+    }
+
+#content-container {
+    height: 650px;
+    }
+    #post1-container {
+        background-color: #666;
+        float: left;
+        width: 450px;
+        height: 250px;
+        margin-left: 100px;
+        box-shadow: 0px 0px 20px 3px #000;
+        margin-top: 25px;
+    }
+    #post1-header-name {
+    background-color: #FFF;
+    height: 30px;
+    margin-top: -150px;
+    position: relative;
+    line-height: 30px;
+    font-weight: lighter;
+    box-shadow: 0px 0px 20px 3px #FFF;
+    }
+
+#viewsource_button1_container {
+    float: left;
+    background-color: #1C949E;
+    color: #FFF;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 3px #000;
+    margin-top: 300px;
+    margin-left: -290px;
+    }
+    #viewsource_button1_container:hover {
+    animation: colorchange 1s infinite;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    }
+    @keyframes colorchange {
+        0% {
+            background-color: #1C949E;
+        }
+        100% {
+            background-color: #000000;
+        }
+    }
+
+    
+    #post2-container {
+        background-color: #666;
+        float: right;
+        width: 450px;
+        height: 250px;
+        margin-right: 100px;
+        box-shadow: 0px 0px 20px 3px #000;
+        margin-top: 25px;
+    }
+    #post2-header-name {
+    background-color: #FFF;
+    height: 30px;
+    margin-top: -150px;
+    position: relative;
+    line-height: 30px;
+    font-weight: lighter;
+    box-shadow: 0px 0px 20px 3px #FFF;
+    }
+    
+    
+    
+#viewsource_button2_container {
+    float: right;
+    background-color: #1C949E;
+    color: #FFF;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 3px #000;
+    margin-top: 300px;
+    margin-right: -290px;
+    }
+    #viewsource_button2_container:hover {
+    animation: colorchange2 1s infinite;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    }
+    @keyframes colorchange2 {
+        0% {
+            background-color: #1C949E;
+        }
+        100% {
+            background-color: #000000;
+        }
+    }
+
+#footer {
+    background-color: #666;
+    box-shadow: 0px 0px 20px 3px #000;
+    height: 150px;
+    }
+    #footer h4 {
+    color: #FFF;
+    font-weight: lighter;
+    text-decoration: underline;
+    }
+    #footer p {
+    color: #FFF;
+    font-weight: lighter;
+    margin-top: -20px;
+    }
+/* unvisited link */
+a:link {
+    color: #FFF;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #FFF;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: #fff;
+    text-decoration: none;    
+}
+</style>
+
+
+
+
+<body>
+<div id="container">
+    
+    
+<div id="header">
+    <a href="index.html"><h2>SOURCE GALLERY</h2></a>
+    <h3><a href="index.html">HOME</a></h3>
+</div>
+    
+<div id="content-container">
+    
+    <div id="post1-container">
+        <img src="summerproject.png" alt="summer" width="450" height="250">
+    <div id="post1-header-name">
+        <center><h3>SUMMER PROJECT</h3></center>
+    </div>
+    </div>
+    <div id="viewsource_button1_container">
+        <h3>VIEW SOURCE</h3>
+    </div>
+    <div id="post2-container">
+        <img src="check.png" alt="check" width="450" height="250">
+    <div id="post2-header-name">
+        <center><h3>CHECK CS6 PROJECT</h3></center>
+    </div>
+    </div>
+    <div id="viewsource_button2_container">
+        <h3>VIEW SOURCE</h3>
+    </div>
+    
+</div>
+
+    <div id="last_updated">
+        <center><p>Last Updated On <i>Monday, November 5, 2018</i>, By <i>Peter Qirjazi</i></p></center>
+    </div>
+    
+    
+<div id="footer">
+    <center><h4>LINKS</h4></center>
+    <center><p>Discord</p></center>
+</div>
+
+</div>
+
+</body>
+
+</html>
